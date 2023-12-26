@@ -1,0 +1,178 @@
+header {
+   background: url('https://wallpapers.com/images/featured/background-mhdoyguhq3skloxt.jpg') center center no-repeat;
+    background-size: cover;
+    color:#fff;
+    text-align: center;
+    padding: 50px 0;
+}
+nav {
+    background: #FFC0CB;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover {
+    background: #ADD8E6;
+}
+.content {
+    padding: 50px 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+    transition: background 0.3s;
+    display: block;
+    transition: background 0.3s;
+background-color: #333;
+} 
+#nav-toggle {
+    display: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #444;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    nav ul.show {
+        display: flex;
+    }
+    nav li {
+        text-align: center;
+    }
+    #nav-toggle {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 24px;
+        color: #fff;
+    }
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+.about-me-bg {
+    background: #eedaf9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; 
+}
+.about-me-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.about-me-info {
+    width: 60%; 
+    box-sizing: border-box;
+}
+.about-me-image img {
+    max-width: 100%;
+    border-radius: 45%;
+    border: 25px solid #eedaf9;
+    height: 400px;
+}
+.about-me-info h1 {
+    font-size: 72px;
+    color:#870E87;
+}
+.about-me-info p {
+    font-size: 21px; 
+    margin-bottom: 300px;
+    color: #333;
+}
+th-border {
+    border: 2px solid #ccc; 
+    border-radius: 8px;
+    overflow: hidden;
+}
+.skills-bg {
+    background: #e6f7ff;
+}
+.projects-bg {
+    background: #ffe6cc;
+}
+.contact-bg {
+    background: #d9ead3;
+}
+.with-border {
+    border: 2px solid;
+    border-radius: 8px; 
+    overflow: hidden; 
+}
+.skill-category {
+    margin-bottom: 20px;
+}
+.skill-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.skill-images img {
+    max-width: 15%;
+    height: auto;
+}
+.skill-images img:hover {
+    transform: scale(1.7);
+}
+.container h2{
+  font-size: 50px;
+  color:#5D3FD3;
+}
+.skill-category h3{
+  font-size: 20px;
+  color:#4169E1;
+}
+footer {
+   background: url('https://wallpapers.com/images/featured/background-mhdoyguhq3skloxt.jpg') center center no-repeat;
+   background-size: cover;
+   color:#fff;
+   text-align: center;
+   padding: 50px 0;
+}
+.container1 h2{
+font-size: 50px;
+  color:#228B22;
+}
+.container2 img{
+max-width: 50%;
+    height: 290px;
+}
+.container2 h2{
+font-size: 50px;
+  color:#FF681F;
+}
+.DarkMagenta-text{
+color:DarkMagenta;
+}
